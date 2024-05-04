@@ -1,0 +1,389 @@
+.container-index {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(24, 49, 83), rgb(0, 0, 0));
+    overflow: hidden;
+}
+
+.first-section-index {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* width: 200px; */
+}
+
+.first-top-index {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 550px;
+    border-radius: 30px;
+   
+    color: wheat;
+    box-shadow:
+        0 0 10px rgba(255, 255, 255, 0.5),
+        /* White shadow */
+        0 0 20px rgba(255, 255, 255, 0.5),
+        /* White shadow */
+        0 0 40px rgba(255, 255, 255, 0.5);
+    /* White shadow */
+
+
+}
+@media (orientation : portrait ){
+    .first-top-index{
+        width: 80%;
+        margin:auto;
+        margin-top: 30px;
+    }
+    
+}
+#developer{
+    font-size: 40px;
+}
+.breakrow{
+    display: none;
+}
+@media (orientation : portrait ){
+    .breakrow{
+        display: block;
+    }
+}
+
+
+.first-bottom-index {
+    color: wheat;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    padding:100px;
+    height: 100vh;
+
+}
+
+@media (orientation : portrait ){
+    .first-bottom-index {
+        padding:20px;
+        margin-top: 200px;
+    }
+    .uniquifier{
+        height: 10vh;
+        width: 100%;
+        
+    }
+}
+
+
+.profile_section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profile-text{
+    color: wheat;
+    margin-left: 60px;
+    height: 200px;
+    width: 360px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.profile_section img{
+    height: 200px;
+    width: 300px;
+    margin-top: 80px;
+    border-radius: 60px;
+}
+@media (orientation : portrait ){
+  .profile_section{
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile_section img{
+    height: 10px;
+    width: 10px;
+    
+}
+}
+
+
+
+.black-ops-one-regular {
+    font-family: "Black Ops One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+.uniquifier {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.animate {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* Alternate up and down animation for odd and even letters */
+.letter:nth-child(odd) {
+    animation-name: moveUp;
+}
+
+.letter:nth-child(even) {
+    animation-name: moveDown;
+}
+
+.scroll-to-bottom {
+    scroll-behavior: smooth;
+}
+
+.linkWithoutUnderline-index {
+    text-decoration: none;
+    color: wheat;
+}
+
+
+
+
+
+.second-section-index{
+    
+    padding: 20px;
+    color: wheat;
+    
+}
+@media(orientation : portrait){
+    .second-section-index{
+        margin-top: 50vh;
+        padding: 20px;
+        color: wheat;
+        height: 100vh;
+        margin-bottom: 25vh;
+    }
+}
+.main-page-index{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+
+@media(orientation : portrait){
+    .main-page-index{
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        
+    
+    }
+}
+
+
+.row-index {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  
+  .col-index {
+    flex: 1;
+    text-align: center;
+    margin-top: 50px;
+  }
+#center-text{
+    font-size: 3.5rem;
+    color:#76ABAE;
+}
+
+
+@media(orientation : portrait){
+    #center-text, .h1{
+        font-size: 2rem;
+    }
+    #tag-id{
+        font-size:14px;
+        }
+    #tag-id1{
+        margin-top: 20px;
+        font-size:14px;
+    }
+    #tag-id3{
+        margin-top: 20px;
+        font-size:14px;
+    }
+}
+
+
+
+
+
+
+
+
+ /* Footer.css */
+ .footer {
+    background-color: rgba(255, 240, 245, 0.598);
+    /* background-color: #27282c; */
+    color: black;
+    padding: 30px 0;
+    margin-top: 100px;
+    
+}
+.footer-inside{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    
+}
+@media(orientation : portrait){
+    .footer-inside{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+}
+
+.footer-left{
+    width: 60%;
+}
+.footer-right{
+    width: 30%;
+}
+
+@media(orientation : portrait){
+    .footer-left{
+        width: 90%;
+    }
+}
+.footer-right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.footer h5 {
+    color: black;
+    font-size: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    /* line-height: 5px; */
+}
+
+.footer .contact-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer .contact-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer .contact-list li:before {
+    content: "\2022";
+    color: #fff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* first-top */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blink-animation {
+    animation: blink 1s infinite; /* Adjust duration of blinking animation as needed */
+  }
+  
+
+
+  @keyframes shimmer {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+                     0 0 20px rgba(255, 255, 255, 0.5),
+                     0 0 30px rgba(255, 255, 255, 0.5);
+        opacity: 0.7;
+    }
+    50% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8),
+                     0 0 40px rgba(255, 255, 255, 0.8),
+                     0 0 60px rgba(255, 255, 255, 0.8);
+        opacity: 1;
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+                     0 0 20px rgba(255, 255, 255, 0.5),
+                     0 0 30px rgba(255, 255, 255, 0.5);
+        opacity: 0.7;
+    }
+  }
+  
+  .shimmer-text {
+    animation: shimmer 3s infinite;
+  }
+  
+  
+  
+  
+  @keyframes moveUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+  
+  @keyframes moveDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+  
+
+

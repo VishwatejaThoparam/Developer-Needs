@@ -1,0 +1,59 @@
+.reference-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background color */
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .video-item {
+    background-color: #fff; /* White background color for each video item */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-title {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .video-link {
+    margin-top: 10px;
+  }
+  
+  .video-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .video-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .no-videos {
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+  }
+  

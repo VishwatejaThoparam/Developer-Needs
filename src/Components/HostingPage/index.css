@@ -1,0 +1,168 @@
+.container-deploy {
+    background-color: black;
+    color: white;
+    padding: 20px;
+   
+  }
+  .container-deploy h1{
+    font-size: 2rem;
+  }
+  .container-deploy h2{
+    font-size: 1.5rem;
+  }
+  .container-deploy p{
+    font-size: 1rem;
+  }
+  .animation-container {
+    opacity: 0;
+    animation: CSSscrollReveal 1s ease forwards;
+    margin-left: 60px;
+    margin-bottom: 60px;
+  }
+  
+  @keyframes CSSscrollReveal {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animation-container1 {
+    animation-delay: 0s;
+  }
+  
+  .animation-container2 {
+    animation-delay: 1s;
+  }
+  
+  .animation-container3 {
+    animation-delay: 2s;
+  }
+  
+  .animation-container4 {
+    animation-delay: 3s;
+  }
+  
+  .animation-container5 {
+    animation-delay: 4s;
+  }
+  
+  .animation-container6 {
+    animation-delay: 5s;
+  }
+  
+  .animation-container7 {
+    animation-delay: 6s;
+  }
+  
+  .animation-container8 {
+    animation-delay: 7s;
+  }
+  
+  .animation-container9 {
+    animation-delay: 8s;
+  }
+  
+  .animation-container10 {
+    animation-delay: 9s;
+  }
+  
+
+
+
+  .logo-inner-{
+    /* border:2px solid gray; */
+    border-radius: 20px;
+    
+  }
+  .logo-inner- ion-icon {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .logo-inner- svg {
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .logo-inner- p{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .animation{
+    color:rgb(53, 28, 117);
+    margin-top:100px;
+    margin-right:30px;
+    margin-bottom:100px;
+  }
+   
+  /* .backend-sublogos{
+    display: flex;
+    flex-direction: column;
+    font-size: 120px;
+  } */
+  
+  .linkWithoutUnderline {
+    text-decoration: none;
+    color: wheat;
+  }
+
+
+
+
+
+  .deploy-ss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .Front-end ,.Back-end {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    align-items: center;
+  }
+
+  #logo-position{
+    margin-top: 200px;
+    margin-bottom: 600px;
+  }
+  #logo-position-top{
+    margin-top: 400px;
+  }
+
+  #logo-position-1{
+    margin-top: 200px;
+    margin-bottom: 600px;
+  }
+  #logo-position-2{
+    margin-top: 600px;
+    margin-bottom: 200px;
+  }
+  #logo-position-3{
+
+  }
+  #logo-position-4{
+    margin-top: 200px;
+    margin-bottom: 600px;
+  }
+  #logo-position-5{
+
+  }
+  #logo-position-6{
+    margin-top: 600px;
+    margin-bottom: 200px;
+
+  }
+
+  @media(orientation:portrait){
+
+
+  }

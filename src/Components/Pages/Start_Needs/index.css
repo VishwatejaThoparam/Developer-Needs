@@ -1,0 +1,51 @@
+.container-basicneeds {
+  background: linear-gradient(to top, #386f76, #4a3f90);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: wheat;
+  overflow-x: hidden;
+  height: 120vh;
+  width: 100vw;
+}
+
+.main-context {
+  display: flex;
+  flex-direction: column;
+  
+}
+.first-div-top ,.second-div-top,.third-div-top{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 50px 50px 50px;
+
+}
+.first-div-bottom,.second-div-bottom,.third-div-bottom{
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px 50px 50px;
+  
+}
+.dropdown-button{
+color: #386f76;
+}
+
+
+
+
+
+
+#dropdown-item-button{
+  background-color: transparent; /* Change background color */
+  border-color: white;
+  color: wheat;
+}
+
+
+
+@media(orientation:portrait){
+  .first-div-top ,.second-div-top,.third-div-top{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px 50px 50px;
+  
+  }
+}

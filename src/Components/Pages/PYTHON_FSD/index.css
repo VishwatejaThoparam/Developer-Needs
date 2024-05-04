@@ -1,0 +1,302 @@
+.container-python {
+  background:linear-gradient(to right, #2F4F4F, #7DAFC2 );
+  
+
+
+  color: antiquewhite;
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  overflow-x: hidden;
+  
+}
+.second-top-python{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.first-section-python{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.first-top-python{
+  text-align: center;
+  justify-content: center;
+}
+
+.second-section-python{
+  height: 100vh;
+  margin-bottom: 150px;
+}
+
+.second-python{
+  display: flex;
+  flex-direction: row;
+  margin-left:30px;
+  margin-right:30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.second-left-python{
+  height: 90vh;
+  width:30vw;
+  border: 2px solid gray;
+  border-radius: 20px;
+
+}
+
+.second-right-python{
+  height: 90vh;
+  width:60vw;
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin-left: 30px;  
+  overflow: auto; 
+}
+.second-left-python h3{
+  margin-left: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.second-left-python h2 {
+  margin-left: 20px;
+  margin-top:60px ;
+}
+
+.top-head-python{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.sub-top-head-python{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.logos-python{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap:wrap;
+  font-size: 120px;
+  width:100%;
+  margin-bottom: 50px;
+}
+.logo-inner-python{
+  border:2px solid gray;
+  border-radius: 20px;
+  
+}
+.logo-inner-python ion-icon {
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 100px;
+  width: 100px;
+  
+}
+.logo-inner-python svg {
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.logo-inner-python p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.animation-python{
+  color:rgb(53, 28, 117);
+  margin-top:100px;
+  margin-right:30px;
+  margin-left: 30px;
+  margin-bottom:100px;
+}
+ 
+/* .backend-sublogos{
+  display: flex;
+  flex-direction: column;
+  font-size: 120px;
+} */
+
+.linkWithoutUnderline-python {
+  text-decoration: none;
+  color: wheat;
+}
+
+.ojuju-headline-python {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  animation-duration: 1s;
+  font-size: 3rem;
+}
+
+.scroll-to-bottom-python {
+  scroll-behavior: smooth;
+  color: black;
+  margin-top: 100px;
+}
+
+.btn-secondary {
+  background-color: #6c757d; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  margin-top:10px ;
+}
+
+.btn-secondary-python:hover {
+  background-color: #495057; 
+}
+
+.bottom-python{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 60px;
+}
+
+
+
+
+@keyframes zoomInDown {
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+} 
+
+
+
+
+
+
+
+
+
+@media(Orientation:portrait){
+
+  .container-python {
+    font-size: 0.3rem;
+  }
+
+  #project-top-python h1 ,#project-top-python button{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  
+  }
+  .second-python{
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+    margin-right:30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+  .second-section-python{
+    height: 50vh;
+    margin-bottom: 700px;
+  }
+  .second-left-python{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width:90vw;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+  }
+  .second-left-python h3 {
+    font-size: 0.6rem;
+    margin-right: 0;
+  }
+  .second-left-python h2 {
+    font-size: 0.7rem;
+    margin-left: 20px;
+    width: 100px;
+    margin-top:10px ;
+  }
+  .second-right-python{
+    /* height: 50vh; */
+    width:90vw;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: 10px; 
+    overflow: auto; 
+    margin-top: 0;
+  }
+  .second-right-python h2,.first-PL-python h1 {
+    font-size: 0.7rem;
+  }
+  .logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+    font-size: 20px;
+    width:100%;
+  }
+  .logo-inner-python p{
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .logo-inner-python ion-icon {
+    font-size: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .top-head-python{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 0.8rem;
+  }
+  .logo-inner-python svg {
+   
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 60px;
+  }
+  .animation-python {
+    color:rgb(53, 28, 117);
+    margin-right:30px;
+    margin-left: 30px;
+
+  }
+
+
+}
+
+
+
+.tracking-in-contract-bck {
+    -webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}

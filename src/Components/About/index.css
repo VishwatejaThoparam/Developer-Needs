@@ -1,0 +1,75 @@
+.container-aboutus {
+    background: linear-gradient(to top, #8CC6DB, #0F3057);
+    height: 100%;
+    width: 100vw;
+  }
+  
+  .main-section-abt {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .first-abt, .second-abt, .third-abt, .fourth-abt {
+    margin-top: 60px;
+    margin-left: 60px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40vw;
+  }
+  
+  @media(orientation: portrait) {
+    .first-abt, .second-abt, .third-abt, .fourth-abt {
+      margin-top: 30px;
+      margin-left: 30px;
+      width: 50vw;
+    }
+  }
+  
+  .second-abt {
+    margin-left: 50%;
+  }
+  
+  @media(orientation: portrait) {
+    .second-abt {
+      margin-left: 40%;
+    }
+  }
+  
+  .third-abt {
+    height: 250px;
+  }
+  
+  @media(orientation: portrait) {
+    .third-abt {
+      height: 420px;
+    }
+  }
+  
+  .fourth-abt {
+    margin-left: 45%;
+    margin-bottom: 60px;
+  }
+  
+  @media(orientation: portrait) {
+    .fourth-abt {
+      margin-left: 40%;
+    }
+  }
+  
+  .p {
+    animation: CSSscrollReveal 1.5s ease-in-out both;
+  }
+  
+  @keyframes CSSscrollReveal {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
