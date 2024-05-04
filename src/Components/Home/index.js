@@ -113,19 +113,17 @@ const HomePage = () => {
                   </div>
            </div>
            </section>
-           <section>
-            <div className='first-bottom-index' style={{height:"500px", width:"100%"}}>
-                <div> 
-                    <h1 className="uniquifier" style={{height:"100px"}}>
+           <section >
+              <div className='first-bottom-index'>
+                  <h1 className="uniquifier" id='text-typing'>
                       <TypingTextAnimation text="Simplify Your Development Journey: Gather Insights, Implement Ideas, Build Your Dream Website!" speed={50}  />
-                      </h1>
-                </div>
-                <div style={{ textAlign:"center", marginTop:"100px",marginBottom:"300px"}}>
-                    <a href="#landing" className="scroll-to-bottom" style={{ color:"wheat"}}>
-                    <MdKeyboardDoubleArrowDown id='content' style={{height:"30px",width:"30px"}} />
-                    </a>
-                </div>
-            </div>
+                  </h1>
+                  <div style={{textAlign:"center"}}> 
+                      <a href="#landing" className="scroll-to-bottom" style={{ color:"wheat",}}>
+                        <MdKeyboardDoubleArrowDown id='content' style={{height:"30px",width:"30px"}} />
+                      </a>
+                    </div>
+              </div>
             </section>
         <section id="#backlanding" className='second-section-index'>
             <div  className={`landing-page text-center ${isVisible ? "animate" : ""}`}>
