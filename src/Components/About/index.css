@@ -43,7 +43,7 @@
   
   @media(orientation: portrait) {
     .third-abt {
-      height: 420px;
+      height: 50vh;
     }
   }
   
