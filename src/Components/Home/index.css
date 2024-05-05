@@ -94,14 +94,14 @@
 
 .profile-text{
     color: wheat;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
     height: 200px;
     width: 400px;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    
 }
 .profile_section img{
     height: 200px;

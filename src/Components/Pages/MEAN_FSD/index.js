@@ -186,7 +186,7 @@ const renderPL=()=>{
 const jb=''
 return (  
   <div>
-  <h1 className='top-head-mern'>Programming Languages</h1>
+  <h1 className='top-head-mean'>Programming Languages</h1>
   <DeveloperDataDetails listItems={pl}/>
   </div>
   )
@@ -196,7 +196,7 @@ const renderFL=()=>{
   const jb=''
   return (
   <div className='second-FL'>
-    <h1 className='top-head-mern'>Framesworks and Libraries</h1>
+    <h1 className='top-head-mean'>Framesworks and Libraries</h1>
     <DeveloperDataDetails listItems={frontendFL}/>
     <DeveloperDataDetails listItems={backendFL}/>
     <DeveloperDataDetails listItems={backendExtention}/>
@@ -246,7 +246,7 @@ const renderFL=()=>{
     const renderVC=()=>{
       const jb=''
       return ( <div className='fourth-VC'>
-        <h1  className='top-head-mern'>Version Control</h1>
+        <h1  className='top-head-mean'>Version Control</h1>
         <DeveloperDataDetails listItems={versionControl}/>  
         </div>
        )}
@@ -256,7 +256,7 @@ const renderFL=()=>{
       const jb=''
       return (
       <div className='fifth-DT'>
-      <h1  className='top-head-mern'>Development Tools</h1>
+      <h1  className='top-head-mean'>Development Tools</h1>
       <DeveloperDataDetails listItems={developmentTools}/>  
     </div>)
       } 
@@ -288,28 +288,18 @@ case "PL":
 
   return (
     <div className="container-mean">
-    <section className='first-section-mern'>
-      <div className='first-top-mern'>
-        <h1 className='ojuju-headline-mern animate__animated animate__zoomInDown'> MEAN Stack Developer </h1>
+    <section className='first-section-mean'>
+      <div className='first-top-mean'>
+        <h1 className='ojuju-headline-mean animate__animated animate__zoomInDown'> MEAN Stack Developer </h1>
         <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-mern" >
+            <a href="#content" className="scroll-to-bottom-mean" >
             <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
             </a>
           </div>
       </div>
     </section>
     
-    <section id='content' className='second-section-mern'>
-      {/* <div className='second-top-mern'>
-            <div>
-              <h1>Project Design</h1>
-            </div>
-            <div>
-            <Link to={"/basicneeds"}>
-              <button className='btn btn-secondary'>Basic Needs</button>
-            </Link>
-            </div>
-      </div> */}
+    <section id='content' className='second-section-mean'>
       <div className='second-top-mean1'>
         <div className='second-top-mean2'>
           <h1>Project Design</h1>
@@ -332,14 +322,13 @@ case "PL":
                   <h3 onClick={() => setrender('VC')}>Version Control</h3>
                   <h3 onClick={() => setrender('DT')}>Development Tools</h3>
               </div>
-           
           </div>
-          <div className='second-right-mern'>
+          <div className='second-right-mean'>
           <h2 style={{marginLeft:"10px",marginTop:"60px"}}>Docs :To Learn Road Map more click on Text & Icon</h2>
           {renderSection()}
           </div>
         </div>
-        <div className='bottom-mern'>
+        <div className='bottom-mean'>
             <Link to={"/ref"}  ><button id='button-pin' className='btn btn-secondary'>Reference Link</button></Link>
             <Link to={"/"}  ><button id='button-pin' className='btn btn-secondary'> Back</button></Link>
         </div>

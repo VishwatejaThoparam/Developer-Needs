@@ -284,24 +284,29 @@ case "PL":
     </section>
     
     <section id='content' className='second-section-cshop'>
-    <div id='project-top-cshop' className='second-top-cshop'>
-          <div>
-            <h1>Project Design</h1>
-          </div>
-          <div>
-          <Link to={"/basicneeds"}>
-            <button className='btn btn-secondary'>Basic Needs</button>
-          </Link>
-          </div>
+    <div className='second-top-cshop1'>
+        <div className='second-top-cshop2'>
+          <h1>Project Design</h1>
         </div>
+        <div>
+        <Link to={"/basicneeds"}>
+          <button id='btn-style' className='btn btn-secondary'>Basic Needs</button>
+          </Link>
+        </div>
+      </div>
         <div className='second-cshop' >
-          <div className='second-left-cshop'>
-            <h2 >Get Started :</h2>
-            <h3 onClick={() => setrender('PL')}>Programing Language</h3>
-            <h3 onClick={() => setrender('FL')}>Frameworks and Libraries</h3>
-            <h3 onClick={() => setrender('AL')}>Animation Libraries</h3>
-            <h3 onClick={() => setrender('VC')}>Version Control</h3>
-            <h3 onClick={() => setrender('DT')}>Development Tools</h3>
+        <div className='second-left-cshop'>
+              <div >
+                <h2 >Get Started :</h2>
+              </div>
+              <div className='second-left-inner-cshop'>
+                  <h3 onClick={() => setrender('PL')}>Programing Language</h3>
+                  <h3 onClick={() => setrender('FL')}>Frameworks and Libraries</h3>
+                  <h3 onClick={() => setrender('AL')}>Animation Libraries</h3>
+                  <h3 onClick={() => setrender('VC')}>Version Control</h3>
+                  <h3 onClick={() => setrender('DT')}>Development Tools</h3>
+              </div>
+           
           </div>
           <div className='second-right-cshop'>
           <h2 style={{marginLeft:"10px",marginTop:"60px"}}>Docs :To Learn Road Map more click on Text & Icon</h2>

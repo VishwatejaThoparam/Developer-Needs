@@ -230,7 +230,7 @@ const renderPL=()=>{
 const jb=''
 return (  
   <div>
-  <h1 className='top-head-mern'>Programming Languages</h1>
+  <h1 className='top-head-jsfd'>Programming Languages</h1>
   <DeveloperDataDetails listItems={pl}/>
   </div>
   )
@@ -240,7 +240,7 @@ const renderFL=()=>{
   const jb=''
   return (
   <div className='second-FL'>
-    <h1 className='top-head-mern'>Framesworks and Libraries</h1>
+    <h1 className='top-head-jsfd'>Framesworks and Libraries</h1>
     <DeveloperDataDetails listItems={frontendFL}/>
     <DeveloperDataDetails listItems={backendFL}/>
     <DeveloperDataDetails listItems={backendExtention}/>
@@ -277,7 +277,7 @@ const renderFL=()=>{
     const renderVC=()=>{
       const jb=''
       return ( <div className='fourth-VC'>
-        <h1  className='top-head-mern'>Version Control</h1>
+        <h1  className='top-head-jsfd'>Version Control</h1>
         <DeveloperDataDetails listItems={versionControl}/>  
         </div>
        )}
@@ -287,7 +287,7 @@ const renderFL=()=>{
       const jb=''
       return (
       <div className='fifth-DT'>
-      <h1  className='top-head-mern'>Development Tools</h1>
+      <h1  className='top-head-jsfd'>Development Tools</h1>
       <DeveloperDataDetails listItems={developmentTools}/>  
     </div>)
       } 
@@ -319,11 +319,11 @@ case "PL":
 
   return (
     <div className="container-jsfd">
-    <section className='first-section-mern'>
-      <div className='first-top-mern'>
-        <h1 className='ojuju-headline-mern animate__animated animate__zoomInDown'> JAVA Full Stack Developer </h1>
+    <section className='first-section-jsfd'>
+      <div className='first-top-jsfd'>
+        <h1 className='ojuju-headline-jsfd animate__animated animate__zoomInDown'> JAVA Full Stack Developer </h1>
         <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-mern" >
+            <a href="#content" className="scroll-to-bottom-jsfd" >
             <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
             </a>
           </div>
@@ -331,32 +331,36 @@ case "PL":
       
     </section>
    
-    <section id='content' className='second-section-mern'>
-    <div id='project-top-mern' className='second-top-mern'>
-          <div>
-            <h1>Project Design</h1>
-          </div>
-          <div>
-          <Link to={"/basicneeds"}>
-            <button className='btn btn-secondary'>Basic Needs</button>
-          </Link>
-          </div>
+    <section id='content' className='second-section-jsfd'>
+    <div className='second-top-jsfd1'>
+        <div className='second-top-jsfd2'>
+          <h1>Project Design</h1>
         </div>
-        <div className='second-mern' >
-          <div className='second-left-mern'>
-            <h2 >Get Started :</h2>
-            <h3 onClick={() => setrender('PL')}>Programing Language</h3>
-            <h3 onClick={() => setrender('FL')}>Frameworks and Libraries</h3>
-            <h3 onClick={() => setrender('AL')}>Animation Libraries</h3>
-            <h3 onClick={() => setrender('VC')}>Version Control</h3>
-            <h3 onClick={() => setrender('DT')}>Development Tools</h3>
-          </div>
-          <div className='second-right-mern'>
+        <div>
+        <Link to={"/basicneeds"}>
+          <button id='btn-style' className='btn btn-secondary'>Basic Needs</button>
+          </Link>
+        </div>
+      </div>
+        <div className='second-jsfd' >
+        <div className='second-left-jsfd'>
+              <div >
+                <h2 >Get Started :</h2>
+              </div>
+              <div className='second-left-inner-jsfd'>
+                  <h3 onClick={() => setrender('PL')}>Programing Language</h3>
+                  <h3 onClick={() => setrender('FL')}>Frameworks and Libraries</h3>
+                  <h3 onClick={() => setrender('AL')}>Animation Libraries</h3>
+                  <h3 onClick={() => setrender('VC')}>Version Control</h3>
+                  <h3 onClick={() => setrender('DT')}>Development Tools</h3>
+              </div>
+              </div>
+          <div className='second-right-jsfd'>
           <h2 style={{marginLeft:"10px",marginTop:"60px"}}>Docs :To Learn Road Map more click on Text & Icon</h2>
           {renderSection()}
           </div>
         </div>
-        <div className='bottom-mern'>
+        <div className='bottom-jsfd'>
             <Link to={"/ref"}  ><button id='button-pin' className='btn btn-secondary'>Reference Link</button></Link>
             <Link to={"/"}  ><button id='button-pin' className='btn btn-secondary'> Back</button></Link>
         </div>

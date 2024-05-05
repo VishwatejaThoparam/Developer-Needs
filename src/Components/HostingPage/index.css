@@ -126,8 +126,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
     align-items: center;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
   }
 
   #logo-position{
@@ -137,7 +138,7 @@
   #logo-position-top{
     margin-top: 400px;
   }
-
+/* 
   #logo-position-1{
     margin-top: 200px;
     margin-bottom: 600px;
@@ -160,9 +161,27 @@
     margin-top: 600px;
     margin-bottom: 200px;
 
-  }
+  } */
 
   @media(orientation:portrait){
+
+  /* #logo-position-1{
+    
+  }
+  #logo-position-2{
+  }
+  #logo-position-3{
+    margin-bottom: 400px;
+  }
+  #logo-position-4{
+    margin-top: 1000px;
+  }
+  #logo-position-5{
+    
+  }
+  #logo-position-6{
+    margin-top: 0;
+  } */
 
 
   }
