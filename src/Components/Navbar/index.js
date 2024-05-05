@@ -9,8 +9,13 @@ const NavbarHeader = ()=>{
   return (
     <Navbar  expand="lg" className="bg-body-tertiary">
       <Container>
+      {/* <FaLaptopHouse  style={{height:"50px" ,width:"50px"}} /> */}
       
-        <Navbar.Brand href="/"> <FaLaptopHouse  style={{height:"50px" ,width:"50px"}} /> Developer Needs</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <img src="https://res.cloudinary.com/dcneemn9t/image/upload/v1714923236/logo_DN_green_e6cqqp.png" alt="logo" style={{ height: "50px", width: "50px" }} />
+        Developer Needs
+        </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto">

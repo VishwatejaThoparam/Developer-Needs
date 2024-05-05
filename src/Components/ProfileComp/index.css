@@ -28,7 +28,7 @@ image {
     align-items: center;
     mask: url(#image-mask); /* Apply the mask */
     width: 70%; /* Ensure the image fills the SVG */
-    height: 70%;
+    height: 65%;
     object-fit: cover; /* Ensure the image fits its container */
   }
   

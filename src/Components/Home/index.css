@@ -333,14 +333,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* first-top */
 @keyframes blink {
     0% { opacity: 1; }
@@ -381,7 +373,6 @@
   
   
   
-  
   @keyframes moveUp {
     0% {
         transform: translateY(0);
@@ -405,6 +396,3 @@
         transform: translateY(0);
     }
   }
-  
-
-

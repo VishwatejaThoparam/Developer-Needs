@@ -41,7 +41,8 @@ const MorphingBackground = () => {
 
         <image
   ref={imageRef}
-  href="https://res.cloudinary.com/dcneemn9t/image/upload/v1714822094/image_profile_ranuc7.jpg"
+  // href="https://res.cloudinary.com/dcneemn9t/image/upload/v1714822094/image_profile_ranuc7.jpg"
+  href="art_image.png"
   // href="https://res.cloudinary.com/dcneemn9t/image/upload/v1713427819/nxxtm9h62gale2psq94x.jpg"
   x="28" y="32.5" // Adjusted x and y position to center the image
   width="75%" height="75%"
