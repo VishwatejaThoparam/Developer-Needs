@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import DeveloperDataDetails from '../../DataComponent';
+import { FaNetworkWired } from "react-icons/fa6";
+import { BiLogoReact } from "react-icons/bi";
+import { BsDatabaseFill } from "react-icons/bs";
+import { SiCsharp } from "react-icons/si";
+import { VscAzureDevops } from "react-icons/vsc";
+import { FaCloud } from "react-icons/fa";
 import "./index.css";
 
 
@@ -265,16 +271,58 @@ case "PL":
 
   return (
     <div className="container-asp">
-    <section className='first-section-asp'>
-      <div className='first-top-asp'>
-        <h1 className='ojuju-headline-asp animate__animated animate__zoomInDown'> ASP.NET Full Stack Developer </h1>
-        <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-asp" >
-            <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
-            </a>
+      <section className='section-top-asp'>
+        <div className='top-main-asp'>
+          <h1>.NET Full Stack Developer Path</h1>
+          <p>Embark on a journey to become a proficient .NET Full Stack Developer, mastering the essential skills and technologies to build innovative web applications.</p>
+          <a href='#landing' >
+          <button  type="button" class="btn btn-light">Explore the Path</button>
+          </a>
+        </div>
+      </section>
+      <section id='landing' className='section-middle-asp'>
+        <div className='middle-main-asp'>
+          <p1>Skills to Master</p1>
+          <h1>Mastering the .NET Ecosystem</h1>
+          <p>Develop a deep understanding of C#, .NET, SQL Server, and complementary frontend technologies to build robust and scalable web applications.</p>
+        </div>
+        <div className='middle-bottom-asp'>
+          <div className='inner-middle-asp'>
+              <div>
+                  <SiCsharp className='icon-style-asp'/>
+                  <h1>C#</h1>
+                 <p>Proficient in C# programming language, including object-oriented design, LINQ, and asynchronous programming.</p>
+              </div>
+              <div>
+              <FaNetworkWired  className='icon-style-asp' />
+                  <h1>.NET</h1>
+                 <p>Experienced in building web applications using the .NET framework, including ASP.NET MVC and Web API.</p>
+              </div>
+              <div>
+              <BiLogoReact  className='icon-style-asp'/>
+                  <h1>React</h1>
+                  <p>Dive into the world of React, mastering the creation of modern, responsive, and interactive user interfaces.</p>
+              </div>
           </div>
-      </div>
-    </section>
+          <div className='inner-middle-asp'>
+              <div>
+              <BsDatabaseFill className='icon-style-asp' />
+                  <h1>SQL Server</h1>
+                 <p>Skilled in designing, implementing, and maintaining SQL Server databases, including data modeling, optimization, and querying.</p>
+              </div>
+              <div>
+              <FaCloud  className='icon-style-asp'/>
+                  <h1>Azure</h1>
+                  <p>Experienced in deploying and managing web applications on the Microsoft Azure cloud platform, including PaaS and IaC.</p>
+              </div>
+              <div>
+              <VscAzureDevops  className='icon-style-asp'/>
+                  <h1>DevOps</h1>
+                  <p>Dive into DevOps practices, including CI/CD, containerization, and infrastructure as code.</p>
+              </div>
+          </div>
+        </div>
+      </section>
     
     <section id='content' className='second-section-asp'>
     <div className='second-top-asp1'>

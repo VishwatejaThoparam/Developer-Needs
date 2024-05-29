@@ -18,6 +18,7 @@
     font-size: 120px;
     width:100%;
     margin-bottom: 50px;
+    color: black;
   }
   .logo-inner-jsfd{
     border:2px solid gray;
@@ -43,7 +44,8 @@
   }
   .linkWithoutUnderline-jsfd {
     text-decoration: none;
-    color: wheat;
+    /* color: wheat; */
+    color: black;
   }
   .animation-jsfd{
     color:rgb(53, 28, 117);

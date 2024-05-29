@@ -1,21 +1,77 @@
 .container-mean {
 
-  background: linear-gradient(to top, #B6C0C5 , #1e2d4a);
-  /* background: linear-gradient(to top, #8CC6DB, #0F3057);
-  background: linear-gradient(to top, #E6E6FA, #3d274e);
-  background: linear-gradient(to top, #134052 , #17172a);
-  background: linear-gradient(to top, #6a2424, #7e1f00);
-  background: linear-gradient(to top, #5c6977 , #2F4F4F);
-  background: linear-gradient(to left, #4B0082, #009486);
-  background: linear-gradient(to top, #386f76 , #4a3f90); */
+  /* background: linear-gradient(to top, #B6C0C5 , #1e2d4a); */
+ 
 
-
-  color: antiquewhite;
+  background-color: #D8D9DA;
   font-size: 12px;
   font-family: Georgia, 'Times New Roman', Times, serif; 
   overflow-x: hidden;
   
 }
+
+
+
+.top-main-mean{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa', sans-serif;
+  --font-sans: 'Comfortaa';
+  background: linear-gradient(to top, #B6C0C5 , #1e2d4a);
+  color: white;
+  height: 50vh;
+}
+.top-main-mean p{
+  width: 35%;
+  text-align: center;
+}
+
+.middle-main-mean{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa', sans-serif;
+  --font-sans: 'Comfortaa';
+  background-color: #D8D9DA;
+  color: rgb(44 82 130);
+  height: 50vh;
+}
+
+.middle-bottom-mean{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(44 82 130);
+}
+.middle-main-mean p{
+  color: rgb(107 114 128);
+}
+.inner-middle-mean{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.inner-middle-mean p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(107 114 128);
+  height: 100px;
+  width: 300px;
+
+}
+
+.icon-style-mean{
+  height: 50px;
+  width: 50px;
+}
+
+
 
 
 .second-top-mean1{
@@ -68,6 +124,8 @@
   width:30vw;
   border: 2px solid gray;
   border-radius: 20px;
+  color: antiquewhite;
+  background: linear-gradient(to top, #B6C0C5 , #1e2d4a);
 
 }
 
@@ -157,15 +215,7 @@
   color: black;
   margin-top: 100px;
 }
-/* 
-.btn-secondary {
-  background-color: #6c757d; 
-  color: #fff; 
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease; 
-} */
+
 #btn-style{
   font-size: "2rem";
 }
@@ -211,6 +261,29 @@
     font-size: 0.3rem;
   }
 
+  .top-main-mean h1{
+    text-align: center;
+  }
+  .top-main-mean p{
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .middle-main-mean{
+    font-size: 14px;
+    text-align: center;
+
+  }
+  .inner-middle-mean{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .inner-middle-mean p{
+    font-size: 14px;
+  }
 
   .second-top-mean1{
     display: flex;

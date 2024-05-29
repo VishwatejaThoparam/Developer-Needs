@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import DeveloperDataDetails from '../../DataComponent';
+import { FaLinux } from "react-icons/fa";
+import { SiApache } from "react-icons/si";
+import { VscAzureDevops } from "react-icons/vsc";
+import { GrMysql } from "react-icons/gr";
+import { BiLogoReact } from "react-icons/bi";
+import { FaPhp } from "react-icons/fa";
 import "./index.css";
 
 
@@ -321,16 +327,59 @@ case "PL":
 
   return (
     <div className="container-lamp">
-    <section className='first-section-lamp'>
-      <div className='first-top-lamp'>
-        <h1 className='ojuju-headline-lamp animate__animated animate__zoomInDown'> LAMP Full Stack Developer </h1>
-        <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-lamp" >
-            <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
-            </a>
+
+      <section className='section-top-lamp'>
+        <div className='top-main-lamp'>
+          <h1>LAMP Full Stack Developer Path</h1>
+          <p>Embark on a journey to become a proficient LAMP Full Stack Developer, mastering the essential skills and technologies to build innovative web applications.</p>
+          <a href='#landing' >
+          <button  type="button" class="btn btn-light">Explore the Path</button>
+          </a>
+        </div>
+      </section>
+      <section id='landing' className='section-middle-lamp'>
+        <div className='middle-main-lamp'>
+          <p1>Skills to Master</p1>
+          <h1>Mastering the LAMP Ecosystem</h1>
+         <p>Develop a deep understanding of Linux, Apache, MySQL, and PHP, as well as complementary frontend technologies to build robust and scalable web applications.</p>
+        </div>
+        <div className='middle-bottom-lamp'>
+          <div className='inner-middle-lamp'>
+              <div>
+              <FaLinux className='icon-style-lamp' />
+                  <h1>Linux</h1>
+                 <p>Proficient in Linux operating system, including command-line interface, system administration, and server management.</p>
+              </div>
+              <div>
+              <SiApache className='icon-style-lamp'/>
+                  <h1>Apache</h1>
+                  <p>Experienced in setting up, configuring, and managing the Apache web server for hosting web applications.</p>
+              </div>
+              <div>
+              <BiLogoReact  className='icon-style-lamp'/>
+                  <h1>React</h1>
+                  <p>Skilled in developing modern, responsive, and interactive user interfaces using React and related technologies.</p>
+              </div>
           </div>
-      </div>
-    </section>
+          <div className='inner-middle-lamp'>
+              <div>
+              <GrMysql className='icon-style-lamp' />
+                  <h1>Mysql</h1>
+                <p>Skilled in designing, implementing, and maintaining MySQL databases, including data modeling, optimization, and querying.</p>
+              </div>
+              <div>
+              <FaPhp className='icon-style-lamp'/>
+                  <h1>PHP</h1>
+                  <p>Proficient in PHP programming, including core language features, object-oriented design, and enterprise-level development.</p>
+              </div>
+              <div>
+              <VscAzureDevops  className='icon-style-lamp'/>
+                  <h1>DevOps</h1>
+                  <p>Dive into DevOps practices, including CI/CD, containerization, and infrastructure as code.</p>
+              </div>
+          </div>
+        </div>
+      </section>
     
     <section id='content' className='second-section-lamp'>
     <div className='second-top-lamp1'>

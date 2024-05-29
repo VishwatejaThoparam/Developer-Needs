@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import DeveloperDataDetails from '../../DataComponent';
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { BiLogoReact } from "react-icons/bi";
+import { FaAws } from "react-icons/fa";
+import { FaNode } from "react-icons/fa6";
+import { FaDocker } from "react-icons/fa";
 import "./index.css";
 
 
@@ -287,16 +293,60 @@ case "PL":
 
   return (
     <div className="container-mern">
-    <section className='first-section-mern'>
-      <div className='first-top-mern'>
-        <h1 className='ojuju-headline-mern animate__animated animate__zoomInDown'> MERN Stack Developer </h1>
-        <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-mern" >
-            <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
-            </a>
+      
+
+      <section className='section-top-mern'>
+        <div className='top-main-mern'>
+          <h1>MERN Full Stack Developer Path</h1>
+          <p>Embark on a journey to become a proficient MERN Full Stack Developer, mastering the essential skills and technologies to build innovative web applications.</p>
+          <a href='#landing' >
+          <button  type="button" class="btn btn-light">Explore the Path</button>
+          </a>
+        </div>
+      </section>
+      <section id='landing' className='section-middle-mern'>
+        <div className='middle-main-mern'>
+          <p1>Skills to Master</p1>
+          <h1>Mastering the MERN Ecosystem</h1>
+         <p>Develop a deep understanding of MongoDB, Express.js, React, and Node.js to build robust and scalable web applications.</p>
+        </div>
+        <div className='middle-bottom-mern'>
+          <div className='inner-middle-mern'>
+              <div>
+              <SiMongodb className='icon-style-mean'/>
+                  <h1>MangoDB</h1>
+                  <p>Dive into the core Java programming language, including object-oriented design, data structures, and algorithms.</p>
+              </div>
+              <div>
+              <SiExpress  className='icon-style-mean' />
+                  <h1>Express.js</h1>
+                  <p>Explore the Spring Boot framework, learning to build robust, scalable, and secure web applications.</p>
+              </div>
+              <div>
+              <BiLogoReact  className='icon-style-mern'/>
+                  <h1>React</h1>
+                  <p>Dive into the world of React, mastering the creation of modern, responsive, and interactive user interfaces.</p>
+              </div>
           </div>
-      </div>
-    </section>
+          <div className='inner-middle-mern'>
+              <div>
+              <FaNode className='icon-style-mean' />
+                  <h1>Node.js</h1>
+                 <p>Experienced in building server-side applications using Node.js, a JavaScript runtime environment that allows for the execution of JavaScript code outside of a web browser.</p>
+              </div>
+              <div>
+              <FaDocker  className='icon-style-mean'/>
+                  <h1>Docker</h1>
+                <p>Experienced in containerizing and deploying MEAN stack applications using Docker, a platform for building, deploying, and managing containerized applications.</p>
+              </div>
+              <div>
+              <FaAws  className='icon-style-mean'/>
+                  <h1>AWS</h1>
+                 <p>Experienced in deploying and managing MEAN stack applications on the Amazon Web Services (AWS) cloud platform, including services like EC2, RDS, and S3.</p>
+              </div>
+          </div>
+        </div>
+      </section>
     
     <section id='content' className='second-section-mern'>
     <div className='second-top-mern1'>

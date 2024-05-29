@@ -2,6 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import DeveloperDataDetails from '../../DataComponent';
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
+import { FaNode } from "react-icons/fa6";
+import { FaDocker } from "react-icons/fa";
+
 import "./index.css";
 
 
@@ -288,16 +295,59 @@ case "PL":
 
   return (
     <div className="container-mean">
-    <section className='first-section-mean'>
-      <div className='first-top-mean'>
-        <h1 className='ojuju-headline-mean animate__animated animate__zoomInDown'> MEAN Stack Developer </h1>
-        <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-mean" >
-            <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
-            </a>
+
+<section className='section-top-mean'>
+        <div className='top-main-mean'>
+          <h1>MEAN Full Stack Developer Path</h1>
+         <p>Embark on a journey to become a proficient MEAN Full Stack Developer, mastering the essential skills and technologies to build innovative web applications.</p>
+         <a href='#landing' >
+          <button  type="button" class="btn btn-light">Explore the Path</button>
+          </a>
+        </div>
+      </section>
+      <section id='landing' className='section-middle-mean'>
+        <div className='middle-main-mean'>
+          <p1>Skills to Master</p1>
+          <h1>Mastering the MEAN Ecosystem</h1>
+         <p>Develop a deep understanding of MongoDB, Express.js, Angular, and Node.js to build robust and scalable web applications.</p>
+        </div>
+        <div className='middle-bottom-mean'>
+          <div className='inner-middle-mean'>
+              <div>
+                  <SiMongodb className='icon-style-mean'/>
+                  <h1>MangoDB</h1>
+                  <p>Proficient in working with MongoDB, a NoSQL database, for data storage and retrieval.</p>
+              </div>
+              <div>
+              <SiExpress  className='icon-style-mean' />
+                  <h1>Express.js</h1>
+                  <p>Experienced in building web applications using the Express.js framework, a popular Node.js web application framework.</p>
+              </div>
+              <div>
+              <FaAngular  className='icon-style-mean'/>
+                  <h1>Angular</h1>
+                 <p>Skilled in developing modern, responsive, and interactive user interfaces using Angular, a powerful TypeScript-based framework.</p>
+              </div>
           </div>
-      </div>
-    </section>
+          <div className='inner-middle-mean'>
+              <div>
+              <FaNode className='icon-style-mean' />
+                  <h1>Node.js</h1>
+                 <p>Experienced in building server-side applications using Node.js, a JavaScript runtime environment that allows for the execution of JavaScript code outside of a web browser.</p>
+              </div>
+              <div>
+              <FaDocker  className='icon-style-mean'/>
+                  <h1>Docker</h1>
+                <p>Experienced in containerizing and deploying MEAN stack applications using Docker, a platform for building, deploying, and managing containerized applications.</p>
+              </div>
+              <div>
+              <FaAws  className='icon-style-mean'/>
+                  <h1>AWS</h1>
+                 <p>Experienced in deploying and managing MEAN stack applications on the Amazon Web Services (AWS) cloud platform, including services like EC2, RDS, and S3.</p>
+              </div>
+          </div>
+        </div>
+      </section>
     
     <section id='content' className='second-section-mean'>
       <div className='second-top-mean1'>

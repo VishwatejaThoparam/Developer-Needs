@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { FaLaptopHouse } from "react-icons/fa";
+// import { FaLaptopHouse } from "react-icons/fa";
 import "./index.css"
 
 const NavbarHeader = ()=>{
@@ -10,10 +10,8 @@ const NavbarHeader = ()=>{
     <Navbar  expand="lg" className="bg-body-tertiary">
       <Container>
       {/* <FaLaptopHouse  style={{height:"50px" ,width:"50px"}} /> */}
-      
-      <Navbar.Brand href="/">
-        <img src="https://res.cloudinary.com/dcneemn9t/image/upload/v1714923236/logo_DN_green_e6cqqp.png" alt="logo" style={{ height: "50px", width: "50px" }} />
-        Developer Needs
+      <Navbar.Brand href="/" style={{color:"white"}}>
+        <img src="https://res.cloudinary.com/dcneemn9t/image/upload/v1714923236/logo_DN_green_e6cqqp.png" alt="logo" style={{ height: "50px", width: "50px" }} />  Developer Needs
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -61,8 +59,8 @@ const NavbarHeader = ()=>{
 
             
 
-            <Nav.Link href="/host">Deployment</Nav.Link>
-            <Nav.Link href="/about">AboutUs</Nav.Link>
+            <Nav.Link href="/host" style={{color:"white"}}>Deployment</Nav.Link>
+            <Nav.Link href="/about" style={{color:"white"}}>AboutUs</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

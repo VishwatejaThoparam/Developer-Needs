@@ -3,6 +3,13 @@ import React, { useEffect, useState } from 'react';
 import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import DeveloperDataDetails from '../../DataComponent';
+
+import { BsDatabaseFill } from "react-icons/bs";
+import { VscAzureDevops } from "react-icons/vsc";
+import { FaCloud } from "react-icons/fa";
+import { BiLogoReact } from "react-icons/bi";
+import { FaPhp } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
 import "./index.css";
 
 
@@ -288,16 +295,58 @@ case "PL":
 
   return (
     <div className="container-php">
-    <section className='first-section-php'>
-      <div className='first-top-php'>
-        <h1 className='ojuju-headline-php animate__animated animate__zoomInDown'> PHP Full Stack Developer </h1>
-        <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-php" >
-            <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
-            </a>
+      <section className='section-top-php'>
+        <div className='top-main-php'>
+          <h1>PHP Full Stack Developer Path</h1>
+        <p>Embark on a journey to become a proficient PHP Full Stack Developer, mastering the essential skills and technologies to build innovative web applications.</p>
+        <a href='#landing' >
+          <button  type="button" class="btn btn-light">Explore the Path</button>
+          </a>
+        </div>
+      </section>
+      <section id='landing' className='section-middle-php'>
+        <div className='middle-main-php'>
+          <p>Skills to Master</p>
+          <h1>Mastering the PHP Ecosystem</h1>
+       <p>Develop a deep understanding of PHP, Laravel, and complementary frontend technologies to build robust and scalable web applications.</p>
+        </div>
+        <div className='middle-bottom-php'>
+          <div className='inner-middle-php'>
+              <div>
+              <FaPhp className='icon-style-php'/>
+                  <h1>PHP</h1>
+                  <p>Proficient in PHP programming, including core language features, object-oriented design, and enterprise-level development.</p>
+              </div>
+              <div>
+              <FaLaravel className='icon-style-php'/>  
+                  <h1>Laravel</h1>
+                 <p>Experienced in building robust, scalable, and secure web applications using the Laravel framework.</p>
+              </div>
+              <div>
+              <BiLogoReact  className='icon-style-php'/>
+                  <h1>React</h1>
+                  <p>Dive into the world of React, mastering the creation of modern, responsive, and interactive user interfaces.</p>
+              </div>
           </div>
-      </div>
-    </section>
+          <div className='inner-middle-php'>
+              <div>
+              <BsDatabaseFill className='icon-style-php' />
+                  <h1>Database</h1>
+                  <p>Explore database design and implementation, including both SQL and NoSQL databases.</p>
+              </div>
+              <div>
+              <FaCloud  className='icon-style-php'/>
+                  <h1>Cloud</h1>
+                  <p>Learn to deploy and manage your applications on cloud platforms, such as AWS and Google Cloud.</p>
+              </div>
+              <div>
+              <VscAzureDevops  className='icon-style-php'/>
+                  <h1>DevOps</h1>
+                  <p>Dive into DevOps practices, including CI/CD, containerization, and infrastructure as code.</p>
+              </div>
+          </div>
+        </div>
+      </section>
     
     <section id='content' className='second-section-php'>
     <div className='second-top-mean1'>
@@ -311,11 +360,11 @@ case "PL":
         </div>
       </div>
         <div className='second-php' >
-        <div className='second-left-mean'>
+        <div className='second-left-php'>
               <div >
                 <h2 >Get Started :</h2>
               </div>
-              <div className='second-left-inner-mean'>
+              <div className='second-left-inner-php'>
                   <h3 onClick={() => setrender('PL')}>Programing Language</h3>
                   <h3 onClick={() => setrender('FL')}>Frameworks and Libraries</h3>
                   <h3 onClick={() => setrender('AL')}>Animation Libraries</h3>

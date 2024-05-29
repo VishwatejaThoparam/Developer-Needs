@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 
-const CardComponent = ({name,role,link,text}) => {
+const CardDetails = ({name,role,link,text}) => {
   return (
     <div className="parent">
       <div className="card">
         <div className="logo">
           <div className="circle circle1"></div>
-          <div className="circle circle2"></div>
+          {/* <div className="circle circle2"></div> */}
           <div className="circle circle3"></div>
           <div className="circle circle4"></div>
           <div className="circle circle5">
@@ -37,4 +37,4 @@ const CardComponent = ({name,role,link,text}) => {
   );
 };
 
-export default CardComponent;
+export default CardDetails;

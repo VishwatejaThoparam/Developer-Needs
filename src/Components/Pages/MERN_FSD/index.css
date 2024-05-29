@@ -1,20 +1,78 @@
 .container-mern {
-    /* background: linear-gradient(to top, #7c7979 , #1e2d4a); */
-    /* background: linear-gradient(to top, #8CC6DB, #0F3057);
-    background: linear-gradient(to top, #E6E6FA, #3d274e);
-    background: linear-gradient(to top, #134052 , #17172a);
-    background: linear-gradient(to top, #6a2424, #7e1f00);
-    background: linear-gradient(to top, #5c6977 , #2F4F4F);
-    /* background: linear-gradient(to left, #4B0082, #009486); */
-    background: linear-gradient(to top, #386f76 , #4a3f90); 
   
-  
-    color: antiquewhite;
+    background-color: #D8D9DA;
+    
     font-size: 12px;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     overflow-x: hidden;
     
   }
+
+
+
+
+  .top-main-mern{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', sans-serif;
+    --font-sans: 'Comfortaa';
+    background-color: #4C51BF;
+    color: white;
+    background: linear-gradient(to top, #386f76 , #4a3f90); 
+    height: 50vh;
+  }
+  .top-main-mern p{
+    width: 35%;
+    text-align: center;
+  }
+  
+  .middle-main-mern{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', sans-serif;
+    --font-sans: 'Comfortaa';
+    background-color: #D8D9DA;
+    color: rgb(44 82 130);
+    height: 50vh;
+  }
+  
+  .middle-bottom-mern{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44 82 130);
+  }
+  .middle-main-mern p{
+    color: rgb(107 114 128);
+  }
+  .inner-middle-mern{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  .inner-middle-mern p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(107 114 128);
+    height: 100px;
+    width: 300px;
+  
+  }
+  
+  .icon-style-mern{
+    height: 50px;
+    width: 50px;
+  }
+
+
+
   .second-top-mern1{
     display: flex;
     flex-direction: row;
@@ -60,7 +118,8 @@
     width:30vw;
     border: 2px solid gray;
     border-radius: 20px;
-  
+    background: linear-gradient(to top, #386f76 , #4a3f90); 
+    color: antiquewhite;
   }
   
   .second-right-mern{
@@ -207,6 +266,30 @@
   
     .container-mern {
       font-size: 0.3rem;
+    }
+
+    .top-main-mern h1{
+      text-align: center;
+    }
+    .top-main-mern p{
+      width: 70%;
+      font-size: 14px;
+      text-align: center;
+    }
+    
+    .middle-main-mern{
+      font-size: 14px;
+      text-align: center;
+  
+    }
+    .inner-middle-mern{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .inner-middle-mern p{
+      font-size: 14px;
     }
     .second-top-mern1{
       display: flex;

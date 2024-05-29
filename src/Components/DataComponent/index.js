@@ -14,7 +14,7 @@ const DeveloperDataDetails = (props) => {
       <h2 className='sub-top-head-jsfd'>{name}</h2>
       <div  className='logos-jsfd'> 
         {logos.map((item) => (
-          <Link to={item.link} style={{ textDecoration: "none", color: "wheat" }}>
+          <Link to={item.link} style={{ textDecoration: "none", color: "black" }}>
             <div className='logo-inner-jsfd'>
               <svg
                 role="img"

@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import DeveloperDataDetails from '../../DataComponent';
+import { FaPython } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+import { BiLogoReact } from "react-icons/bi";
+import { BsDatabaseFill } from "react-icons/bs";
+import { VscAzureDevops } from "react-icons/vsc";
+import { FaCloud } from "react-icons/fa";
 import "./index.css";
 
 
@@ -282,17 +288,59 @@ case "PL":
 
   return (
     <div className="container-python">
-    <section className='first-section-python'>
-      <div className='first-top-python'>
-        <h1 className='ojuju-headline-python animate__animated animate__zoomInDown'> PYTHON Full Stack Developer </h1>
-        <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-python" >
-            <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
-            </a>
+   <section className='section-top-python'>
+        <div className='top-main-python'>
+          <h1>Python Full Stack Developer Path</h1>
+         <p>Embark on a journey to become a proficient Python Full Stack Developer, mastering the essential skills and technologies to build innovative web applications.</p>
+         <a href='#landing' >
+          <button  type="button" class="btn btn-light">Explore the Path</button>
+          </a>
+        </div>
+      </section>
+      <section id='landing' className='section-middle-python'>
+        <div className='middle-main-python'>
+          <p>Skills to Master</p>
+          <h1>Mastering the Python Ecosystem</h1>
+          <p>Develop a deep understanding of Python, Django, and complementary frontend technologies to build robust and scalable web applications.</p>
+        </div>
+        <div className='middle-bottom-python'>
+          <div className='inner-middle-python'>
+              <div>
+              <FaPython className='icon-style-python'/>
+                  <h1>Python</h1>
+                  <p>Proficient in Python programming, including core language features, object-oriented design, and enterprise-level development.</p>
+              </div>
+              <div>
+              <SiDjango className='icon-style-python' />
+              
+                  <h1>Django</h1>
+                  <p>Experienced in building robust, scalable, and secure web applications using the Django framework.</p>
+              </div>
+              <div>
+              <BiLogoReact  className='icon-style-python'/>
+                  <h1>React</h1>
+                  <p>Dive into the world of React, mastering the creation of modern, responsive, and interactive user interfaces.</p>
+              </div>
           </div>
-      </div>
-    </section>
-    
+          <div className='inner-middle-python'>
+              <div>
+              <BsDatabaseFill className='icon-style-python' />
+                  <h1>Database</h1>
+                  <p>Explore database design and implementation, including both SQL and NoSQL databases.</p>
+              </div>
+              <div>
+              <FaCloud  className='icon-style-python'/>
+                  <h1>Cloud</h1>
+                  <p>Learn to deploy and manage your applications on cloud platforms, such as AWS and Google Cloud.</p>
+              </div>
+              <div>
+              <VscAzureDevops  className='icon-style-python'/>
+                  <h1>DevOps</h1>
+                  <p>Dive into DevOps practices, including CI/CD, containerization, and infrastructure as code.</p>
+              </div>
+          </div>
+        </div>
+      </section>
     <section id='content' className='second-section-python'>
     <div className='second-top-python1'>
         <div className='second-top-python2'>

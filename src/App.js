@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AboutPage from './Components/About';
-import HomePage from './Components/Home';
+// import HomePage from './Components/Home';
 import Hosting from './Components/HostingPage';
+import IndexPage from './Components/Index';
 import Login from './Components/LoginPage';
 import NavbarHeader from './Components/Navbar';
 import AspDNetFullStack from './Components/Pages/ASP.NET_FSD';
-import CShopFullStack from './Components/Pages/CShop_FSD';
 import JavaFullStack from './Components/Pages/JAVA_FSD';
 import LampFullStack from './Components/Pages/LAMP_FSD';
 import MeanFullStack from './Components/Pages/MEAN_FSD';
@@ -28,10 +28,10 @@ function  App() {
     <Router>
       <NavbarHeader/>
       <Routes>
-        <Route exact path='/' Component={HomePage}/>
+        {/* <Route exact path='/' Component={HomePage}/> */}
+        <Route exact path='/' Component={IndexPage}/>
         <Route exact path='/about' Component={AboutPage}/>
         <Route exact path="/asp" Component={AspDNetFullStack}/>
-        <Route exact path="/cshop" Component={CShopFullStack}/>
         <Route exact path='/java' Component={JavaFullStack}/>
         <Route exact path='lamp' Component={LampFullStack}/>
         <Route exact path='/mean' Component={MeanFullStack}/>

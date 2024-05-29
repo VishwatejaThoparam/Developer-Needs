@@ -1,14 +1,75 @@
 .container-python {
-  background:linear-gradient(to right, #2F4F4F, #7DAFC2 );
   
-
-
-  color: antiquewhite;
+  background-color: #D8D9DA;
+  
   font-size: 12px;
   font-family: Georgia, 'Times New Roman', Times, serif; 
   overflow-x: hidden;
   
 }
+
+
+
+.top-main-python{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa', sans-serif;
+  --font-sans: 'Comfortaa';
+  background:linear-gradient(to right, #2F4F4F, #7DAFC2 );
+  color: white;
+  height: 50vh;
+}
+.top-main-python p{
+  width: 35%;
+  text-align: center;
+}
+
+.middle-main-python{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa', sans-serif;
+  --font-sans: 'Comfortaa';
+  background-color: #D8D9DA;
+  color: rgb(44 82 130);
+  height: 50vh;
+}
+
+.middle-bottom-python{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(44 82 130);
+}
+.inner-middle-python{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.inner-middle-python p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  width: 300px;
+
+}
+.middle-main-python p{
+  color: rgb(107 114 128);
+}
+
+.icon-style-python{
+  height: 50px;
+  width: 50px;
+}
+
+
+
 .second-top-python1{
   display: flex;
   flex-direction: row;
@@ -54,6 +115,8 @@
   width:30vw;
   border: 2px solid gray;
   border-radius: 20px;
+  background:linear-gradient(to right, #2F4F4F, #7DAFC2 );
+  color: antiquewhite;
 
 }
 
@@ -202,6 +265,32 @@
   .container-python {
     font-size: 0.3rem;
   }
+
+
+  .top-main-python h1{
+    text-align: center;
+  }
+  .top-main-python p{
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .middle-main-python{
+    font-size: 14px;
+    text-align: center;
+
+  }
+  .inner-middle-python{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .inner-middle-python p{
+    font-size: 14px;
+  }
+
   .second-top-python1{
     display: flex;
     flex-direction: row;

@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import DeveloperDataDetails from '../../DataComponent';
+import { BiLogoReact } from "react-icons/bi";
+import { BsDatabaseFill } from "react-icons/bs";
+import { FaCloud } from "react-icons/fa";
+import { VscAzureDevops } from "react-icons/vsc";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { FaJava } from "react-icons/fa";
+// import JavaTest from '../../TestComp';
 import "./index.css";
 
 
@@ -319,26 +325,69 @@ case "PL":
 
   return (
     <div className="container-jsfd">
-    <section className='first-section-jsfd'>
-      <div className='first-top-jsfd'>
-        <h1 className='ojuju-headline-jsfd animate__animated animate__zoomInDown'> JAVA Full Stack Developer </h1>
-        <div style={{marginTop:"100px"}}>
-            <a href="#content" className="scroll-to-bottom-jsfd" >
-            <MdKeyboardDoubleArrowDown style={{height:"30px",width:"30px"}} />
-            </a>
+
+      <section className='section-top-jsfd'>
+        <div className='top-main-jsfd'>
+          <h1>Java Full Stack Developer Path</h1>
+          <p>Embark on a journey to become a proficient Java Full Stack Developer, mastering the art of building robust and scalable web applications.</p>
+          <a href='#landing' >
+          <button  type="button" class="btn btn-light">Explore the Path</button>
+          </a>
+        </div>
+      </section>
+      <section id='landing' className='section-middle-jsfd'>
+        <div className='middle-main-jsfd'>
+          <p1>Skills to Master</p1>
+          <h1>Expertise to Develop</h1>
+          <p>Dive deep into the essential skills and technologies required to become a proficient Java Full Stack Developer.</p>
+        </div>
+        <div className='middle-bottom-jsfd'>
+          <div className='inner-middle-jsfd'>
+              <div>
+                  <FaJava className='icon-style-jsfd'/>
+                  <h1>Java</h1>
+                  <p>Dive into the core Java programming language, including object-oriented design, data structures, and algorithms.</p>
+              </div>
+              <div>
+              <BiLogoSpringBoot  className='icon-style-jsfd' />
+                  <h1>Spring Boot</h1>
+                  <p>Explore the Spring Boot framework, learning to build robust, scalable, and secure web applications.</p>
+              </div>
+              <div>
+              <BiLogoReact  className='icon-style-jsfd'/>
+                  <h1>React</h1>
+                  <p>Dive into the world of React, mastering the creation of modern, responsive, and interactive user interfaces.</p>
+              </div>
           </div>
-      </div>
-      
-    </section>
+          <div className='inner-middle-jsfd'>
+              <div>
+              <BsDatabaseFill className='icon-style-jsfd' />
+                  <h1>Database</h1>
+                  <p>Explore database design and implementation, including both SQL and NoSQL databases.</p>
+              </div>
+              <div>
+              <FaCloud  className='icon-style-jsfd'/>
+                  <h1>Cloud</h1>
+                  <p>Learn to deploy and manage your applications on cloud platforms, such as AWS and Google Cloud.</p>
+              </div>
+              <div>
+              <VscAzureDevops  className='icon-style-jsfd'/>
+                  <h1>DevOps</h1>
+                  <p>Dive into DevOps practices, including CI/CD, containerization, and infrastructure as code.</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
    
     <section id='content' className='second-section-jsfd'>
     <div className='second-top-jsfd1'>
         <div className='second-top-jsfd2'>
           <h1>Project Design</h1>
         </div>
-        <div>
+        <div id='btn-style' >
         <Link to={"/basicneeds"}>
-          <button id='btn-style' className='btn btn-secondary'>Basic Needs</button>
+          <button  className='btn btn-secondary'>Basic Needs</button>
           </Link>
         </div>
       </div>
