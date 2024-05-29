@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './index.css'; // Import CSS file
 
 const ReferencePage = () => {
+  const navigate = useNavigate();
   // Sample video data
   const [videos, setVideos] = useState([
     { id: 1, language: "HTML", title: "HTML Crash Course", link: "https://www.youtube.com/watch?v=UB1O30fR-EE" },
@@ -45,6 +46,11 @@ const ReferencePage = () => {
     setSearchQuery(event.target.value);
   };
 
+  const handleBack =()=>{
+    navigate(-1);
+  }
+
+
   return (
     <div className="reference-page">
       <h1 className="page-title">Full Stack Development Reference Videos</h1>
@@ -71,7 +77,7 @@ const ReferencePage = () => {
           <p className="no-videos">No videos found</p>
         )}
       </div>
-      <Link to={"/"}  ><button id='button-pin' className='btn btn-secondary'> Back</button></Link>
+      <Link to={"/"}  ><button id='button-Needs' onClick={handleBack} className='btn btn-secondary'> Back</button></Link>
     </div>
   );
 };

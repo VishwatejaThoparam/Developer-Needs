@@ -378,8 +378,8 @@ case "PL":
           </div>
         </div>
         <div className='bottom-mern'>
-            <Link to={"/ref"}  ><button id='button-pin' className='btn btn-secondary'>Reference Link</button></Link>
-            <Link to={"/"}  ><button id='button-pin' className='btn btn-secondary'> Back</button></Link>
+            <Link to={"/ref"}  ><button  className='btn btn-secondary'>Reference Link</button></Link>
+            <Link to={"/"}  ><button  className='btn btn-secondary'> Back</button></Link>
         </div>
       </section>
     </div>

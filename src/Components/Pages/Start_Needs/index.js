@@ -2,10 +2,14 @@ import React from 'react';
 import './index.css';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const BasicNeeds = () => {
+  const navigate = useNavigate();
+  const handleBack = () => {
+    navigate(-1);
+  };
   return (
     <div className='container-basicneeds'>
       <div className='main-context'>
@@ -93,9 +97,7 @@ const BasicNeeds = () => {
           
         </DropdownButton>
         </div>
-         <Link to={"/"}  ><button id='button-pin' className='btn btn-secondary' style={{marginLeft:"80vw",marginTop:"20px",marginBottom:"50px",borderRadius:"10px"}}> Back</button></Link>
-
-         
+        <button id='button-needs'  onClick={handleBack} className='btn btn-secondary'> Back</button>
       </div>
     </div>
   );
