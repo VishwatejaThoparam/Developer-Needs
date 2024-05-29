@@ -32,7 +32,8 @@ body {
     width: 550px;
     border-radius: 30px;
    
-    color: wheat;
+    /* color: wheat; */
+    color: white;
     box-shadow:
         0 0 10px rgba(255, 255, 255, 0.5),
         /* White shadow */
@@ -106,7 +107,8 @@ body {
 }
 
 .profile-text{
-    color: wheat;
+    /* color: wheat; */
+    color: white;
     margin-left: 60px;
     margin-right: 60px;
     height: 200px;
@@ -135,7 +137,8 @@ body {
     
     }
     .profile-text{
-        color: wheat;
+        /* color: wheat; */
+        color: white;
         height: 200px;
         width: 400px;
         margin-left: 20px;

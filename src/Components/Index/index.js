@@ -82,7 +82,7 @@ const IndexPage = () => {
                       ))
                     }
                   </h5>
-                            <p className="blinking-text"  style={{marginLeft:"5%",marginRight:"5%"}}>
+                            <p className="blinking-text"  style={{marginLeft:"5%",marginRight:"5%", color:"#76ABAE"}}>
                             {words.map((word, index) => (
                               <span key={index} className={index === currentWordIndex ? 'blink-animation' : ''}>
                                 {word}
