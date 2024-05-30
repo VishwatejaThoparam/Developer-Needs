@@ -354,9 +354,9 @@ case "PL":
           {renderSection()}
           </div>
         </div>
-        <div className='bottom-asp'>
-            <Link to={"/ref"}  ><button id='button-pin' className='btn btn-secondary'>Reference Link</button></Link>
-            <Link to={"/"}  ><button id='button-pin' className='btn btn-secondary'> Back</button></Link>
+        <div className='bottom-jsfd'>
+            <Link to={"/ref"}  ><button  className='btn btn-secondary'>Reference Link</button></Link>
+            <Link to={"/"}  ><button  className='btn btn-secondary'> Back</button></Link>
         </div>
       </section>
     </div>

@@ -410,13 +410,8 @@ case "PL":
           </div>
         </div>
         <div className='bottom-jsfd'>
-          <div>
             <Link to={"/ref"}  ><button  className='btn btn-secondary'>Reference Link</button></Link>
-          </div>
-            <div>
-              <Link to={"/"}  ><button className='btn btn-secondary'> Back</button></Link>
-            </div>
-            
+            <Link to={"/"}  ><button  className='btn btn-secondary'> Back</button></Link>
         </div>
       </section>
     </div>
